@@ -29,9 +29,9 @@ export default class CityListView extends Component<any, any>{
                 <View className='city' id={index == 0 ? 'one' : el.name} key={el.name}>
                   <View className='city_list_item city_title'>{el.name}</View>
                   {
-                    el.cities.map((city) => {
+                    el.cities.map((city,y) => {
                       return (
-                        <View catchMove className='city_list_item' data-city={city} onTap={this.handlerSelectCity.bind(this)} key={city.cityId}>{city.name}</View>
+                        <View catchMove className='city_list_item' data-city={city} onTap={this.handlerSelectCity.bind(this)} key={y}>{city.name}</View>
                       )
                     })
                   }

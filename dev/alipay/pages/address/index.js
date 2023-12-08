@@ -498,14 +498,14 @@ var CityListView = /*#__PURE__*/function (_Component) {
               children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_tarojs_components__WEBPACK_IMPORTED_MODULE_6__.View, {
                 className: "city_list_item city_title",
                 children: el.name
-              }), el.cities.map(function (city) {
+              }), el.cities.map(function (city, y) {
                 return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_tarojs_components__WEBPACK_IMPORTED_MODULE_6__.View, {
                   catchMove: true,
                   className: "city_list_item",
                   "data-city": city,
                   onTap: _this2.handlerSelectCity.bind(_this2),
                   children: city.name
-                }, city.cityId);
+                }, y);
               })]
             }, el.name);
           })
