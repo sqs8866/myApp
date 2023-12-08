@@ -1,0 +1,211 @@
+.address_inputBg {
+  width: 100%;
+  background: #FFFFFF;
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.10);
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 28px;
+  color: #969799;
+  position: relative;
+
+  .address_city_select {
+    box-sizing: border-box;
+    padding: 36px 31px 30px 28px;
+    display: flex;
+    align-items: center;
+
+    .address_city_name {
+      display: inline-block;
+      max-width: 160px;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+    }
+
+    .address_city_arrow {
+      display: inline-block;
+      margin-left: 4px;
+      width: 24px;
+      height: 24px;
+    }
+  }
+
+  .address_input {
+    width: 450px;
+    height: 60px;
+    line-height: 60px;
+    padding-left: 20px;
+    font-size: 28px;
+    color: #19191A;
+    box-sizing: border-box;
+  }
+  .address_special_input_alipay{
+    height: 100px !important;
+    line-height: 100px !important;
+  }
+
+  .address_placeholder_class {
+    vertical-align: middle;
+  }
+
+  .address_cancel_btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10px;
+    padding: 20px;
+    font-size: 28px;
+    border: none;
+    color: #969799;
+    height: 60px;
+    line-height: 60px;
+    background: #fff;
+  }
+}
+
+.address_mapBg {
+  position: relative;
+  width: 100%;
+  height: 600px;
+
+  .address_iconCenter {
+    position: absolute;
+    width: 44px;
+    height: 76px;
+    left: 50%;
+    bottom: 50%;
+    transform: translate(-50%, 0);
+  }
+
+  .address_location {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    right: 10px;
+    bottom: 10px;
+  }
+}
+
+.address_remmendBg {
+  .address_remItem {
+    padding: 30px 38px 28px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    border-bottom: 1px solid #E8E9EB;
+  }
+
+  .address_remName {
+    font-size: 28px;
+    margin-bottom: 3px;
+  }
+
+  .address_remDetail {
+    font-size: 24px;
+    color: #969799;
+  }
+
+  .address_clear {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #969799;
+  }
+
+  .address_empty {
+    width: 80px;
+    height: 78px;
+    margin-bottom: 20px;
+    margin-top: 250px;
+  }
+}
+
+// 输入推荐出来的地址列表
+.address_list {
+  position: absolute;
+  top: 100px;
+  left: 0;
+  box-sizing: border-box;
+  display: block;
+  height: 100%;
+  width: 100%;
+  background-color: #fff;
+  overflow: hidden;
+  z-index: 100;
+  background: white;
+
+  .address {
+    min-height: 120px;
+    border-bottom: 1px solid #eee;
+    overflow: hidden;
+    box-sizing: border-box;
+    padding: 25px 50px 25px 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+
+  .address:nth-child(1) {
+    border-top: 1px solid #EFF0F2;
+  }
+
+  .address_name {
+    font-size: 28px;
+    margin-right: 20px;
+  }
+
+  .address_area {
+    font-size: 24px;
+    color: #999;
+  }
+}
+
+.address_item {
+  box-sizing: border-box;
+  width: 100%;
+  height: 98px;
+  line-height: 98px;
+  font-size: 28px;
+  border-bottom: 1px solid #EFF0F2;
+  padding-left: 36px;
+}
+
+.address_callout{
+  position: absolute;
+  top: 120px;
+  left: 50%;
+  z-index: 0;
+  transform: translateX(-50%);
+  display: flex;
+  background: #1B77F5;
+  padding: 18px 59px 18px 40px;
+  border-radius: 50px;
+  box-shadow: 0 0 5px 2px #ccc;
+  font-size: 24px;
+  color: #FFFFFF;
+  max-width:528px;
+  .address_callout-center {
+    text-align: left;
+  }
+  .address_arrow-down{
+    position: absolute;
+    bottom: -16px;
+    left: 50%;
+    transform: translateX(-50%);
+    width:0;
+    height:0;
+    border-right: 16px solid transparent;
+    border-left: 16px solid transparent;
+    border-top: 16px solid #1B77F5;
+  }
+}
+.cityList_bg{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: white;
+}

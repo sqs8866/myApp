@@ -1,0 +1,12 @@
+{
+  "component2": true,
+  "enableAppxNg": true,
+  "enableHMR": true,
+  "include": [
+    "*/*.xml"
+  ],
+  "window": {
+    "backgroundColor": "#FFFFFF"
+  },
+  "miniprogramRoot": "./"
+}

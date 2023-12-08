@@ -1,0 +1,18 @@
+{
+  "format": 2,
+  "developOptions": {
+    "hotReload": true
+  },
+  "compileOptions": {
+    "component2": true
+  },
+  "miniprogramRoot": "./",
+  "assetsInclude": [
+    "*/*.xml"
+  ],
+  "unknownConfig": {
+    "window": {
+      "backgroundColor": "#FFFFFF"
+    }
+  }
+}

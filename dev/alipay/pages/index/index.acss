@@ -1,0 +1,111 @@
+/*!*************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[0].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[0].use[2]!./node_modules/resolve-url-loader/index.js!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[0].use[4]!./src/pages/index/index.scss ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************************************************/
+@charset "UTF-8";
+.index-icon-center {
+  position: absolute;
+  width: 44rpx;
+  height: 76rpx;
+  left: 50%;
+  bottom: 50%;
+  -webkit-transform: translate(-50%, 0);
+      -ms-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+}
+.index-icon-center .index-icon-img {
+  width: 100%;
+  height: 100%;
+}
+.index-callout {
+  position: fixed;
+  bottom: 58%;
+  left: 50%;
+  z-index: 0;
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background: #1B77F5;
+  padding: 18rpx 59rpx 18rpx 40rpx;
+  border-radius: 50rpx;
+  -webkit-box-shadow: 0 0 5rpx 2rpx #ccc;
+          box-shadow: 0 0 5rpx 2rpx #ccc;
+  font-size: 24rpx;
+  color: #FFFFFF;
+  max-width: 328rpx;
+}
+.index-callout .index-arrow-right {
+  position: absolute;
+  top: 50%;
+  right: 24rpx;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+  width: 32rpx;
+  height: 32rpx;
+}
+.index-callout .index-arrow-down {
+  position: absolute;
+  bottom: -16rpx;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 0;
+  height: 0;
+  border-right: 16rpx solid transparent;
+  border-left: 16rpx solid transparent;
+  border-top: 16rpx solid #1B77F5;
+}
+.bottom-panel {
+  position: fixed;
+  width: 100%;
+  bottom: 20rpx;
+  background: #fff;
+}
+/**底部布局**/
+.index-bottom {
+  background: transparent;
+  z-index: 0;
+}
+.index-bottom .b-controls {
+  width: 100rpx;
+  height: 100rpx;
+}
+.index-bottom .b-icon-user {
+  position: fixed;
+  top: 10rpx;
+  left: 10rpx;
+}
+.index-bottom .b-icon-location {
+  position: absolute;
+  right: 1%;
+  top: -110rpx;
+}
+.index-bottom .b-icon-promotion {
+  position: absolute;
+  top: -210rpx;
+  right: 1%;
+}
+.index-bottom .b-icon-adver {
+  position: absolute;
+  left: 1%;
+  top: -110rpx;
+}
+.index-bottom .b-icon-adver1 {
+  position: absolute;
+  left: 1%;
+  top: -210rpx;
+}
+.index-bottom .b-icon-security {
+  position: absolute;
+  left: 2%;
+  top: -100rpx;
+}
+.index-bottom .b-icon-security {
+  position: absolute;
+  left: 2%;
+  top: -100rpx;
+}
