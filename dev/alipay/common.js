@@ -31,7 +31,7 @@ var mGpsLocation = function mGpsLocation(params) {
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "getOpen": function() { return /* binding */ getOpen; }
 /* harmony export */ });
-/* harmony import */ var D_aWork_daijiayun_myApp_node_modules_babel_runtime_helpers_esm_objectSpread2_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/objectSpread2.js */ "./node_modules/@babel/runtime/helpers/esm/objectSpread2.js");
+/* harmony import */ var D_aWork_myApp_node_modules_babel_runtime_helpers_esm_objectSpread2_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/objectSpread2.js */ "./node_modules/@babel/runtime/helpers/esm/objectSpread2.js");
 /* harmony import */ var _tarojs_taro__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @tarojs/taro */ "webpack/container/remote/@tarojs/taro");
 /* harmony import */ var _tarojs_taro__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_tarojs_taro__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _lib_md5__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @lib/md5 */ "./src/lib/md5.js");
@@ -75,7 +75,7 @@ var request = function request(model) {
   });
 };
 var getOpen = function getOpen(params) {
-  return request((0,D_aWork_daijiayun_myApp_node_modules_babel_runtime_helpers_esm_objectSpread2_js__WEBPACK_IMPORTED_MODULE_3__["default"])((0,D_aWork_daijiayun_myApp_node_modules_babel_runtime_helpers_esm_objectSpread2_js__WEBPACK_IMPORTED_MODULE_3__["default"])({}, params), {}, {
+  return request((0,D_aWork_myApp_node_modules_babel_runtime_helpers_esm_objectSpread2_js__WEBPACK_IMPORTED_MODULE_3__["default"])((0,D_aWork_myApp_node_modules_babel_runtime_helpers_esm_objectSpread2_js__WEBPACK_IMPORTED_MODULE_3__["default"])({}, params), {}, {
     apiUrl: 'https://fangfang.d.kuaimazhixing.com/frontapi/' + params.apiUrl
   }));
 };
@@ -578,10 +578,10 @@ var updateGlobalData = globalDataSlice.actions.updateGlobalData;
   \***********************************/
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
-/* harmony import */ var D_aWork_daijiayun_myApp_node_modules_babel_runtime_helpers_esm_regeneratorRuntime_js__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/regeneratorRuntime.js */ "./node_modules/@babel/runtime/helpers/esm/regeneratorRuntime.js");
-/* harmony import */ var D_aWork_daijiayun_myApp_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js */ "./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js");
-/* harmony import */ var D_aWork_daijiayun_myApp_node_modules_babel_runtime_helpers_esm_classCallCheck_js__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/classCallCheck.js */ "./node_modules/@babel/runtime/helpers/esm/classCallCheck.js");
-/* harmony import */ var D_aWork_daijiayun_myApp_node_modules_babel_runtime_helpers_esm_createClass_js__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createClass.js */ "./node_modules/@babel/runtime/helpers/esm/createClass.js");
+/* harmony import */ var D_aWork_myApp_node_modules_babel_runtime_helpers_esm_regeneratorRuntime_js__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/regeneratorRuntime.js */ "./node_modules/@babel/runtime/helpers/esm/regeneratorRuntime.js");
+/* harmony import */ var D_aWork_myApp_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js */ "./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js");
+/* harmony import */ var D_aWork_myApp_node_modules_babel_runtime_helpers_esm_classCallCheck_js__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/classCallCheck.js */ "./node_modules/@babel/runtime/helpers/esm/classCallCheck.js");
+/* harmony import */ var D_aWork_myApp_node_modules_babel_runtime_helpers_esm_createClass_js__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createClass.js */ "./node_modules/@babel/runtime/helpers/esm/createClass.js");
 /* harmony import */ var _tarojs_taro__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @tarojs/taro */ "webpack/container/remote/@tarojs/taro");
 /* harmony import */ var _tarojs_taro__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_tarojs_taro__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _api_actions__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @api/actions */ "./src/api/actions.ts");
@@ -602,9 +602,9 @@ var updateGlobalData = globalDataSlice.actions.updateGlobalData;
 var lastLoc;
 var LocationClass = /*#__PURE__*/function () {
   function LocationClass() {
-    (0,D_aWork_daijiayun_myApp_node_modules_babel_runtime_helpers_esm_classCallCheck_js__WEBPACK_IMPORTED_MODULE_6__["default"])(this, LocationClass);
+    (0,D_aWork_myApp_node_modules_babel_runtime_helpers_esm_classCallCheck_js__WEBPACK_IMPORTED_MODULE_6__["default"])(this, LocationClass);
   }
-  (0,D_aWork_daijiayun_myApp_node_modules_babel_runtime_helpers_esm_createClass_js__WEBPACK_IMPORTED_MODULE_7__["default"])(LocationClass, [{
+  (0,D_aWork_myApp_node_modules_babel_runtime_helpers_esm_createClass_js__WEBPACK_IMPORTED_MODULE_7__["default"])(LocationClass, [{
     key: "getLocation",
     value:
     //获取地理位置
@@ -622,9 +622,9 @@ var LocationClass = /*#__PURE__*/function () {
       _tarojs_taro__WEBPACK_IMPORTED_MODULE_0___default().getLocation({
         type: "gcj02",
         success: function () {
-          var _success = (0,D_aWork_daijiayun_myApp_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_8__["default"])( /*#__PURE__*/(0,D_aWork_daijiayun_myApp_node_modules_babel_runtime_helpers_esm_regeneratorRuntime_js__WEBPACK_IMPORTED_MODULE_9__["default"])().mark(function _callee(resLoc) {
+          var _success = (0,D_aWork_myApp_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_8__["default"])( /*#__PURE__*/(0,D_aWork_myApp_node_modules_babel_runtime_helpers_esm_regeneratorRuntime_js__WEBPACK_IMPORTED_MODULE_9__["default"])().mark(function _callee(resLoc) {
             var baseData;
-            return (0,D_aWork_daijiayun_myApp_node_modules_babel_runtime_helpers_esm_regeneratorRuntime_js__WEBPACK_IMPORTED_MODULE_9__["default"])().wrap(function _callee$(_context) {
+            return (0,D_aWork_myApp_node_modules_babel_runtime_helpers_esm_regeneratorRuntime_js__WEBPACK_IMPORTED_MODULE_9__["default"])().wrap(function _callee$(_context) {
               while (1) switch (_context.prev = _context.next) {
                 case 0:
                   lastLoc = resLoc;
@@ -647,8 +647,8 @@ var LocationClass = /*#__PURE__*/function () {
           return success;
         }(),
         fail: function () {
-          var _fail = (0,D_aWork_daijiayun_myApp_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_8__["default"])( /*#__PURE__*/(0,D_aWork_daijiayun_myApp_node_modules_babel_runtime_helpers_esm_regeneratorRuntime_js__WEBPACK_IMPORTED_MODULE_9__["default"])().mark(function _callee2(res) {
-            return (0,D_aWork_daijiayun_myApp_node_modules_babel_runtime_helpers_esm_regeneratorRuntime_js__WEBPACK_IMPORTED_MODULE_9__["default"])().wrap(function _callee2$(_context2) {
+          var _fail = (0,D_aWork_myApp_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_8__["default"])( /*#__PURE__*/(0,D_aWork_myApp_node_modules_babel_runtime_helpers_esm_regeneratorRuntime_js__WEBPACK_IMPORTED_MODULE_9__["default"])().mark(function _callee2(res) {
+            return (0,D_aWork_myApp_node_modules_babel_runtime_helpers_esm_regeneratorRuntime_js__WEBPACK_IMPORTED_MODULE_9__["default"])().wrap(function _callee2$(_context2) {
               while (1) switch (_context2.prev = _context2.next) {
                 case 0:
                   console.log('rr');
@@ -670,9 +670,9 @@ var LocationClass = /*#__PURE__*/function () {
   }, {
     key: "getBDAddressMsg",
     value: function () {
-      var _getBDAddressMsg = (0,D_aWork_daijiayun_myApp_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_8__["default"])( /*#__PURE__*/(0,D_aWork_daijiayun_myApp_node_modules_babel_runtime_helpers_esm_regeneratorRuntime_js__WEBPACK_IMPORTED_MODULE_9__["default"])().mark(function _callee3(lat, lon, bd) {
+      var _getBDAddressMsg = (0,D_aWork_myApp_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_8__["default"])( /*#__PURE__*/(0,D_aWork_myApp_node_modules_babel_runtime_helpers_esm_regeneratorRuntime_js__WEBPACK_IMPORTED_MODULE_9__["default"])().mark(function _callee3(lat, lon, bd) {
         var coord, json, _json$location$street, name, component, loc, _json$location$gps, latitude, longitude;
-        return (0,D_aWork_daijiayun_myApp_node_modules_babel_runtime_helpers_esm_regeneratorRuntime_js__WEBPACK_IMPORTED_MODULE_9__["default"])().wrap(function _callee3$(_context3) {
+        return (0,D_aWork_myApp_node_modules_babel_runtime_helpers_esm_regeneratorRuntime_js__WEBPACK_IMPORTED_MODULE_9__["default"])().wrap(function _callee3$(_context3) {
           while (1) switch (_context3.prev = _context3.next) {
             case 0:
               coord = bd ? {
@@ -731,9 +731,9 @@ var LocationClass = /*#__PURE__*/function () {
   }, {
     key: "getCurrentPosition",
     value: function () {
-      var _getCurrentPosition = (0,D_aWork_daijiayun_myApp_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_8__["default"])( /*#__PURE__*/(0,D_aWork_daijiayun_myApp_node_modules_babel_runtime_helpers_esm_regeneratorRuntime_js__WEBPACK_IMPORTED_MODULE_9__["default"])().mark(function _callee4(params) {
+      var _getCurrentPosition = (0,D_aWork_myApp_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_8__["default"])( /*#__PURE__*/(0,D_aWork_myApp_node_modules_babel_runtime_helpers_esm_regeneratorRuntime_js__WEBPACK_IMPORTED_MODULE_9__["default"])().mark(function _callee4(params) {
         var data, loc, cityId, latitude, longitude;
-        return (0,D_aWork_daijiayun_myApp_node_modules_babel_runtime_helpers_esm_regeneratorRuntime_js__WEBPACK_IMPORTED_MODULE_9__["default"])().wrap(function _callee4$(_context4) {
+        return (0,D_aWork_myApp_node_modules_babel_runtime_helpers_esm_regeneratorRuntime_js__WEBPACK_IMPORTED_MODULE_9__["default"])().wrap(function _callee4$(_context4) {
           while (1) switch (_context4.prev = _context4.next) {
             case 0:
               _context4.next = 2;
@@ -767,9 +767,9 @@ var LocationClass = /*#__PURE__*/function () {
   }, {
     key: "getCityInfo",
     value: function () {
-      var _getCityInfo = (0,D_aWork_daijiayun_myApp_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_8__["default"])( /*#__PURE__*/(0,D_aWork_daijiayun_myApp_node_modules_babel_runtime_helpers_esm_regeneratorRuntime_js__WEBPACK_IMPORTED_MODULE_9__["default"])().mark(function _callee5(coord) {
+      var _getCityInfo = (0,D_aWork_myApp_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_8__["default"])( /*#__PURE__*/(0,D_aWork_myApp_node_modules_babel_runtime_helpers_esm_regeneratorRuntime_js__WEBPACK_IMPORTED_MODULE_9__["default"])().mark(function _callee5(coord) {
         var json;
-        return (0,D_aWork_daijiayun_myApp_node_modules_babel_runtime_helpers_esm_regeneratorRuntime_js__WEBPACK_IMPORTED_MODULE_9__["default"])().wrap(function _callee5$(_context5) {
+        return (0,D_aWork_myApp_node_modules_babel_runtime_helpers_esm_regeneratorRuntime_js__WEBPACK_IMPORTED_MODULE_9__["default"])().wrap(function _callee5$(_context5) {
           while (1) switch (_context5.prev = _context5.next) {
             case 0:
               _context5.next = 2;
@@ -797,9 +797,9 @@ var LocationClass = /*#__PURE__*/function () {
   }, {
     key: "getAuthor",
     value: function () {
-      var _getAuthor = (0,D_aWork_daijiayun_myApp_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_8__["default"])( /*#__PURE__*/(0,D_aWork_daijiayun_myApp_node_modules_babel_runtime_helpers_esm_regeneratorRuntime_js__WEBPACK_IMPORTED_MODULE_9__["default"])().mark(function _callee6() {
+      var _getAuthor = (0,D_aWork_myApp_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_8__["default"])( /*#__PURE__*/(0,D_aWork_myApp_node_modules_babel_runtime_helpers_esm_regeneratorRuntime_js__WEBPACK_IMPORTED_MODULE_9__["default"])().mark(function _callee6() {
         var opend;
-        return (0,D_aWork_daijiayun_myApp_node_modules_babel_runtime_helpers_esm_regeneratorRuntime_js__WEBPACK_IMPORTED_MODULE_9__["default"])().wrap(function _callee6$(_context6) {
+        return (0,D_aWork_myApp_node_modules_babel_runtime_helpers_esm_regeneratorRuntime_js__WEBPACK_IMPORTED_MODULE_9__["default"])().wrap(function _callee6$(_context6) {
           while (1) switch (_context6.prev = _context6.next) {
             case 0:
               _context6.next = 2;
